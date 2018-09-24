@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jhoander.mispeliculas.DetallePelicula">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_peliculaRL"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_ly"
+            android:scaleType="fitXY"
+            android:src="@drawable/pelicula" />
+
+        <TextView
+            android:id="@+id/tv_tituloRL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Titulo de la pelicula"
+            android:textSize="@dimen/titulo_carview" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_fecha_estreno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_tituloRL"
+                    android:padding="@dimen/padding_cardview"
+                    android:text="@string/fecha_estreno"
+                    android:textSize="@dimen/fecha_carview"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_fechaRL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_fecha_estreno"
+                    android:padding="@dimen/padding_cardview"
+                    android:text="23 de marzo de 2018"
+                    android:textSize="@dimen/fecha_carview" />
+
+                <TextView
+                    android:id="@+id/tv_lenguaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_fechaRL"
+                    android:padding="@dimen/fecha_carview"
+                    android:text="@string/lenguaje"
+                    android:textSize="@dimen/fecha_carview"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_lenguajeRL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_lenguaje"
+                    android:padding="@dimen/padding_cardview"
+                    android:text="Lenguaje de la pelicula"
+                    android:textSize="@dimen/fecha_carview" />
+
+                <TextView
+                    android:id="@+id/tv_adulto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_lenguajeRL"
+                    android:padding="@dimen/fecha_carview"
+                    android:text="@string/Adulto"
+                    android:textSize="@dimen/fecha_carview"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_adultoRL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_adulto"
+                    android:padding="@dimen/padding_cardview"
+                    android:text="Si"
+                    android:textSize="@dimen/fecha_carview" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_resumen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_peliculaRL"
+                    android:padding="@dimen/padding_cardview"
+                    android:text="@string/resumen"
+                    android:textSize="@dimen/fecha_carview"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_resumenRL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_resumen"
+                    android:padding="@dimen/padding_cardview"
+                    android:text="Resumen de la pelicula"
+                    android:textSize="@dimen/fecha_carview" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

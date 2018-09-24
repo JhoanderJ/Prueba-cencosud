@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MisPeliculas</string>
+    <string name="fecha_estreno">Fecha de Estreno:</string>
+    <string name="resumen">Resumen:</string>
+    <string name="lenguaje">Lenguaje:</string>
+    <string name="genero">Género:</string>
+    <string name="Adulto">Adulto:</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="popular">Popular</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="titulo_pelicula">20dp</dimen>
+    <dimen name="titulo_carview">20sp</dimen>
+    <dimen name="fecha_carview">15sp</dimen>
+    <dimen name="padding_cardview">10dp</dimen>
+    <dimen name="layout_height_imagen">200dp</dimen>
+    <dimen name="cardcornerradius_carview">4dp</dimen>
+    <dimen name="cardelevation_carview">4dp</dimen>
+    <dimen name="layout_margin_cardview">8dp</dimen>
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="layout_height_ly">250dp</dimen>
+</resources>

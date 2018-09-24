@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_pelicula"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/layout_margin_cardview"
+    app:cardCornerRadius="@dimen/cardcornerradius_carview"
+    app:cardElevation="@dimen/cardelevation_carview">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_pelicula"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_imagen"
+            android:scaleType="fitXY"
+            android:src="@drawable/pelicula" />
+
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_pelicula"
+            android:gravity="center"
+            android:padding="@dimen/padding_cardview"
+            android:text="titulo de la pelicula"
+            android:textSize="@dimen/titulo_carview" />
+
+       
+
+        <TextView
+            android:id="@+id/tv_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_titulo"
+            android:padding="@dimen/padding_cardview"
+            android:text="10 de julio 2018"
+            android:textSize="@dimen/fecha_carview" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
