@@ -1,4 +1,4 @@
-package com.example.jhoander.mispeliculas;
+package com.example.jhoander.mispeliculas.vistas;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.jhoander.mispeliculas.BuildConfig;
+import com.example.jhoander.mispeliculas.R;
 import com.example.jhoander.mispeliculas.modelo.Pelicula;
 import com.example.jhoander.mispeliculas.utils.FormatearFecha;
 import com.google.gson.Gson;
